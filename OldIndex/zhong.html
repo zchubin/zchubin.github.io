@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<!-- My ICON -->
+	<link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://zchubin.github.io/favicon.ico" />
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="author" content="钟楚滨" />
+    <meta name="keywords" content="zhongchubin,钟楚滨" />
+    <link href="#" rel="shortcut" type="image/x-icon" />
+    <link href="#" rel="stylesheet" type="text/css" />
+    <title>@钟楚滨</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            text-decoration: none;
+            font-family: "华文楷体","微软雅黑",serif;
+            font-size: 18px;
+            color: #888888;
+        }
+        a:hover{
+            color: #FF0000;
+        }
+        /*头部*/
+        header{
+            height: 55px;
+            width: auto;
+            background-color: #F6F6F6;
+            font-size: 20px;
+        }
+        .H-menu{
+            width: 75px;
+            text-align: center;
+            line-height: 55px;
+            float: left;
+        }
+        .H-1{
+             background-color: #405A75;
+            color: #fff;
+         }
+        .H-2{
+            background-color: #A5B4B7;
+            color: #566568;
+        }
+        .H-3{
+            background-color: #C9CED4;
+            color: #51565C;
+        }
+        .H-4{
+            background-color: #EDF2F5;
+            color: #787D81;
+        }
+        .H-5{
+            background-color: #28C5A8;
+            color: #A3FFF2;
+            float: right;
+        }
+        /*身体*/
+       	#master{
+       		width: 1264px;
+       		margin: 0 auto;
+      	}
+        .M-left{
+            float: left;
+            width: 300px;
+            min-height: 1000px;
+            background-color: #EDEDED;
+        }
+        .left-top-box{
+            width: 220px;
+            position: relative;
+            top: 30px;
+            margin: 0 auto;
+        }
+        #image{
+            float: left;
+            width: 90px;
+            height: 110px;
+            background-color: #B2B1AF;
+        }
+        #image-menu{
+            padding: 3px 0 5px 5px;
+            width: 125px;
+            height: 102px;
+            float: left;
+            line-height: 16px;
+        }
+        #image-menu p{
+            color: #2DC5AC;
+            font-size: 14px;
+        }
+        .left-top-box table{
+            position: relative;
+            top: 40px;
+        }
+        .left-top-box table tr{
+            height: 30px;
+            width: 220px;
+        }
+        .T-bg{
+            height: 30px;
+            width: 25px;
+        }
+        .T-bg1-color{
+            background-color: #445C78;
+        }
+        .T-bg2-color{
+            background-color: #3D4753;
+        }
+        .T-bg3-color{
+            background-color: #21C5A2;
+        }
+        .T-bg4-color{
+            background-color: #65696A;
+        }
+        .T-text{
+            width: 170px;
+            line-height: 30px;
+        }
+        .T-in{
+            width: 10px;
+            height: 10px;
+            float: right;
+            position: relative;
+            top: 10px;
+            -webkit-border-radius: 0 50px 50px 0;
+            -moz-border-radius: 0 50px 50px 0;
+            border-radius: 0 50px 50px 0;
+            background-color: black;
+        }
+        .left-bottom-box{
+            width: 220px;
+            height: 230px;
+            margin: 0 auto;
+            position: relative;
+            top: 300px;
+        }
+        .left-top-box section{
+            font-size: 14px;
+            color: #FFF;
+        }
+		.left-top-box section:hover{
+			color: #3D4753;
+		}
+        .left-bottom-box-bg{
+            width: 100px;
+            height: 105px;
+            background: #FFF;
+            float: left;
+            text-align: center;
+        }
+        .left-bottom-box-bg p{
+            font-size: 12px;
+        }
+        .left-bottom-box-bg-1,.left-bottom-box-bg-2{
+            margin-bottom: 20px;
+        }
+        .left-bottom-box-bg-1,.left-bottom-box-bg-3{
+            margin-right: 20px;
+        }
+        .bottom-image{
+            margin: 0 auto;
+            width: 98px;
+            height: 60px;
+            float: left;
+        }
+        .bottom-1{
+            background-color: #425C77;
+        }
+        .bottom-2{
+            background-color: #6B6B6B;
+        }
+        .bottom-3{
+            background-color: #22CBAA;
+        }
+        .bottom-4{
+            background-color: #354F66;
+        }
+        .M-right{
+            min-height: 1000px;
+            min-width: 964px;
+            float: left;
+        }
+        .right-top{
+            height: 375px;
+            min-width: 964px;
+            background-color: #ADE6FA;
+        }
+        .right-bottom{
+            height: 625px;
+            min-width: 964px;
+            background-color: #D9D9D9;
+			text-align： center;
+			line-height: 625px;
+        }
+		
+
+/*==========nav==========*/
+		.right-top nav{
+			width: 115px;
+            height: 355px;
+            position: relative;
+            top: 10px;
+		}
+        .right-top nav ul{
+        	font-size: 18px;
+            float: left;
+            margin: 0 0 5px 5px;
+            text-align: center;
+            line-height: 40px;
+            width: 115px;
+            height: 40px;
+            background: #435B73;
+        }
+        .menu-8{
+        	margin-bottom: 0;
+        }
+        .right-top nav ul:hover li{
+        	position: absolute;
+        	left: 120px;
+            width: 844px;
+            background: #435B73;
+            display: inline-block;
+        }
+        .right-top nav ul li{
+            text-align: center;
+            display: none;
+        }
+        .right-top nav ul:hover li a{
+            font-size: 18px;
+            display: inline-block;
+            padding: 0 2px;
+        }
+        .right-top nav ul:hover li a:hover{
+            color: #FF7F27;
+        }
+
+        /*页脚*/
+        footer{
+            clear: both;
+            width: auto;
+            min-height: 80px;
+            background-color: #435B77;
+            color: #fff;
+        }
+		footer .laster{
+			clear: both;
+			margin: 0 auto;
+			width: auto;
+			height: auto;
+			background-color: #B22222;
+			text-align: center;
+			}
+		footer .laster a{
+			color: white;
+			font-size: larger;
+			text-align: center;
+		}
+		#footer-box{
+			padding-top: 10px;
+			margin: 0 auto;
+			width: 592px;
+		}
+		.fore{
+			text-align: center;
+			margin: 0 5px;
+			width: 138px;
+			float: left;
+		}
+		.last{
+			text-align: center;
+			margin: 0 auto;
+			clear: all;
+			display: block;
+		}
+    </style>
+</head>
+<body>
+<header>
+    <div class="H-menu H-1"><a href="#" title="特点">feature</a></div>
+    <div class="H-menu H-2"><a href="#" title="支持">support</a></div>
+    <div class="H-menu H-3"><a href="#" title="关于">about</a></div>
+    <div class="H-menu H-4"><a href="#" title="资助">funding</a></div>
+    <div class="H-menu H-5"><a href="#" title="刷新">refresh</a></div>
+</header>
+<div id="master">
+    <div class="M-left">
+            <div class="left-top-box">
+                <div id="image"></div>
+                <div id="image-menu">
+                    <h1>NAME</h1>
+                    <a style="font-size: 14px">钟楚滨</a>
+                    <p>“莫等闲，白了少年头空悲切！”</p>
+                </div>
+                <section>
+                    金樽清酒斗十千，玉盘珍馐值万钱。停杯投箸不能食，拔剑四顾心茫然。欲渡黄河冰涩川，将登太行雪满山。闲来垂钓碧溪上，忽复乘舟梦日边。行路难！行路难！多歧路，今安在？长风破浪会有时，直挂云帆济沧海。
+                </section>
+                    <table>
+                       <tr>
+                           <td class="T-bg T-bg1-color"></td>
+                           <td class="T-text"><a href="#">博主详细信息</a> <a class="T-in" href="#"></a></td>
+                       </tr>
+                        <tr>
+                            <td class="T-bg T-bg2-color"></td>
+                            <td class="T-text"><a href="#">博主联系方式</a><a class="T-in" href="#"></a></td>
+                        </tr>
+                        <tr>
+                            <td class="T-bg T-bg3-color"></td>
+                            <td class="T-text"><a href="#">博主电子邮件</a><a class="T-in" href="#"></a></td>
+                        </tr>
+                        <tr>
+                            <td class="T-bg T-bg4-color"></td>
+                            <td class="T-text"><a href="#">博主相册</a><a class="T-in" href="#"></a></td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="left-bottom-box">
+                <div class="left-bottom-box-bg left-bottom-box-bg-1">
+                    <div class="bottom-image bottom-1"></div>
+                    <div class="bottom-document">
+                        <h1><a href="#">软件</a></h1>
+                        <p>高效/便携/纯净</p>
+                    </div>
+                </div>
+                <div class="left-bottom-box-bg left-bottom-box-bg-2">
+                    <div class="bottom-image bottom-2"></div>
+                    <div class="bottom-document">
+                        <h1><a href="#">相册</a></h1>
+                        <p>高清/原图/设计</p>
+                    </div>
+                </div>
+                <div class="left-bottom-box-bg left-bottom-box-bg-3">
+                    <div class="bottom-image bottom-3"></div>
+                    <div class="bottom-document">
+                        <h1><a href="#">反馈</a></h1>
+                        <p>意见/投诉/建议</p>
+                    </div>
+                </div>
+                <div class="left-bottom-box-bg left-bottom-box-bg-4">
+                    <div class="bottom-image bottom-4"></div>
+                    <div class="bottom-document">
+                        <h1><a href="#">购买</a></h1>
+                        <p>优惠/特价/免费</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="M-right">
+        <div class="right-top">
+           <nav>
+				<!--<li><a href="" title="" target="new"></a></li>-->
+				<ul>高清图片
+					<li><a href="https://worldvectorlogo.com/" title="品牌图标" target="new">WORLDVECTORLOGO</a>
+						<a href="https://seeklogo.com/" title="品牌图标" target="new">SEEKLOGO</a>
+						<a href="http://www.iconpng.com" title="品牌图标" target="new">ICONPNG</a>
+						<a href="https://www.easyicon.net" title="品牌图标" target="new">EASYICON</a>
+						<a href="http://huaban.com/" title="图片搜索" target="new">花瓣网</a>
+						<a href="http://www.51yuansu.com/" title="图片搜索" target="new">觅元素</a>
+						<a href="http://www.58pic.com/" title="图片搜索" target="new">千图网</a>
+						<a href="https://pixabay.com/" title="惊人的免费图片" target="new">Piaxbay</a>
+						<a href="http://www.pinsdaddy.com/" title="壁纸类" target="new">pinsdaddy</a>
+						<a href="https://picjumbo.com/" title="壁纸类" target="new">free stock photos</a>
+						<a href="https://www.wallpaperup.com/" title="壁纸类" target="new">wallpaperup</a>
+						<a href="https://unsplash.com/" title="世界上最慷慨的摄影师群体所赐予" target="new">nsplash</a>
+						<a href="http://wallls.com/" title="你从未见过的墙纸" target="new">S.com</a>
+						<a href="https://www.vladstudio.com/zh/home/" title="壁纸类" target="new">vladstudio</a>
+						<a href="http://www.pinsdaddy.com/" title="壁纸类" target="new">Pinsdaddy</a>
+						<a href="https://www.ydbmnt.com/" title="一大波美女图" target="new">一大波美女图</a>
+					</li>
+				</ul>
+				<ul>在线软件
+					<li><a href="http://tool.oschina.net/" title="在线格式转换" target="new">office-converter</a>
+						<a href="https://virusscan.jotti.org/" title="在线病毒查杀" target="new">virusscan</a>
+						<a href="http://www.virscan.org/" title="在线病毒查杀" target="new">VirSCAN</a>
+						<a href="https://jinshuju.net/" title="在线表单制作" target="new">金数据</a>
+						<a href="http://www.mikecrm.com/" title="在线表单制作" target="new">麦克CRM</a>
+					</li>
+				</ul>
+				<ul>视屏网站
+					<li><a href="http://lykezhan.com/vip/" title="十个免费vip" target="new">01</a>
+						<a href="http://yy.zhiliaotang.com/vip/" title="十个免费vip" target="new">02</a>
+						<a href="http://www.52dytt.net/vip.html" title="十个免费vip" target="new">03</a>
+						<a href="http://www.5ifxw.com/vip/" title="十个免费vip" target="new">04</a>
+						<a href="http://www.qmaile.com" title="十个免费vip" target="new">05</a>
+						<a href="http://tv.dsqndh.com/?&rand=458a8da573e72af51b786d80eecac285" title="十个免费vip" target="new">06</a>
+						<a href="http://www.csctc317.com" title="十个免费vip" target="new">07</a>
+						<a href=" http://tv.myhack58.com" title="十个免费vip" target="new">08</a>
+						<a href="http://www.51onb.com/filmvip/" title="十个免费vip" target="new">09</a>
+						<a href="http://live.gopartook.com/?& ... 2914b88fea480db4a2a" title="十个免费vip" target="new">10</a>
+						<a href="https://www.80s.tw/" title="海量视频" target="new">80s.TV</a>
+						<a href="http://www.jlpcn.net/" title="全球纪录片" target="new">jlpcn.net</a>
+						<a href="https://www.xiaohx.org/" title="视屏下载" target="new">小浣熊</a>
+						<a href="https://www.vmovier.com/" title="Android——微电影" target="new">场库</a>
+						<a href="http://ifkdy.com/" title="电影" target="new">疯狂电影搜索</a>
+						<a href="http://ys.vsvc.cc/movielist/all/1.html" title="" target="new">果冻电影</a>
+						<a href="http://www.361dy7.com/" title="" target="new">361电影</a>
+					</li>
+				</ul>
+				<ul>音乐网站
+					<li><a href="http://music.ifkdy.com/" title="全站音乐" target="new">疯狂音乐搜索</a>
+						<a href="http://sc.webaudiosaver.com/" title="从任何网站免费保存任何听到的音频" target="new">WebAudioSaver</a>
+						<a href="http://cn.imslp.org/wiki/Main_Page" title="国际音乐乐谱图书馆项目。" target="new">IMSLP</a>
+						<a href="https://freepd.com/" title=" 免费音乐-免费为商业使用, 免费的版税, 免费的归属, 创意共享 " target="new">Freepd</a>
+					</li>
+				</ul>
+				<ul>系统/软件
+					<li><a href="http://www.dayanzai.me/" title="软件分享博主" target="new">大眼仔旭</a>
+						<a href="https://amazing-apps.gitbooks.io/windows-apps-that-amaze-us/content/zh-CN/" title="优质软件" target="new">windows绝赞应用</a>
+						<a href="https://www.rkdot.com/" title="软矿" target="new">RK</a>
+						<a href="https://www.52pojie.cn/" title="破解软件社区" target="new">52破解</a>
+						<a href="https://getitfree.cn/" title="正版软件" target="new">正版中国</a>
+						<a href="http://www.zdfans.com/" title="软件类" target="new">zd423</a>
+						<a href="https://www.portablesoft.org/" title="便携软件" target="new">精品绿色软件</a>
+						<a href="http://www.portableappc.com/" title="软件类" target="new">portableappc</a>
+						<a href="https://www.iplaysoft.com/" title="软件类" target="new">异次元软件世界</a>
+						<a href="http://www.bzdiao.com/" title="软件类" target="new">软件小子</a>
+						<a href="https://www.appinn.com/" title="软件类" target="new">小众软件</a>
+						<a href="http://www.4realtorrentz.com/" title="国外软件下载" target="new">4realtorrentz</a>
+						<a href="http://hrtsea.com/" title="软件类" target="new">新海e站</a>
+						<a href="https://link.zhihu.com/?target=http%3A//www.nruan.com/" title=" 屹立在IT前沿" target="new">N软网</a>
+						<a href="https://link.zhihu.com/?target=http%3A//liulanmi.com/" title="浏览器下载" target="new">浏览迷</a>
+						<a href="http://www.lite6.com/" title="软件类" target="new">软件阁</a>
+						<a href="https://www.ssdax.com/" title="软件破解博主" target="new">伤逝的安详</a>
+						<a href="http://www.bokeboke.net/" title="软件类" target="new">爱软客</a>
+						<a href="https://link.zhihu.com/?target=http%3A//www.ihacksoft.com/" title="软件资讯、下载及使用交流" target="new">开心软件园</a>
+						<a href="https://link.zhihu.com/?target=http%3A//www.ccav1.com/" title="分享优秀、纯净、绿色、实用的精品软件。ChromeGAE唯一官方网站" target="new">Yanu</a>
+						<a href="https://portableapps.com/" title="10亿下载绿色便携" target="new">Home</a>
+						<a href="https://link.zhihu.com/?target=https%3A//sourceforge.net/" title="国际软件类" target="new">Free Open Software</a>
+						<a href="https://link.zhihu.com/?target=http%3A//filehippo.com/zh/" title="国际软件类" target="new">filehippo</a>
+						<a href="https://link.zhihu.com/?target=http%3A//download.cnet.com" title="国际软件类" target="new">download.cnet</a>
+						<a href="http://im.acirno.com/" title="软件资源" target="new">JUST FOR FUN</a>
+						<a href="https://xbeta.info/" title="软件文章" target="new">善用佳软件</a>
+						<a href="http://www.xitongzhijia.net/" title="Ghost系统下载" target="new">系统之家</a>
+						<a href="http://www.songyongzhi.com/" title="软件分享博主" target="new">宋永志</a>
+						<a href="http://office6.top/Topic.aspx" title="Office一切资源" target="new">Office学院</a>
+					</li>
+				</ul>
+				<ul>特色网站
+					<li><a href="http://bbs.chongbuluo.com/" title="一网打尽" target="new">虫部落</a>
+						<a href="https://youquhome.com/" title="全球有趣网址收藏" target="new">有趣网址之家</a>
+						<a href="https://zh.moegirl.org/Mainpage" title="动漫百科类" target="new">萌娘百科</a>
+						<a href="http://paintschainer.preferred.tech/index_zh.html" title="线稿自动上色" target="new">paintschainer</a>
+						<a href="https://pixivic.com" title="提供 P 站每日的日排行插画前 200 名的浏览，提供有限的高级会员搜索" target="new">P站搜索</a>
+						<a href="https://webkul.github.io/coolhue/" title="渐变配色" target="new">CoolHue </a>
+						<a href="https://uigradients.com" title="渐变配色" target="new">Uigradients </a>
+						<a href="https://webgradients.com/" title="渐变配色" target="new">Webgradients </a>
+						<a href="https://gradient.shapefactory.co/" title="渐变配色" target="new">Gradients of Shapefactory </a>
+						<a href="" title="" target="new"></a>
+					</li>
+				</ul>
+				<ul>学习网站
+					<li><a href="http://afanihao.cn/#about" title="Java、C\C++" target="new">阿发你好</a>
+						<a href="http://topbook.cc/" title="分享1000支高效学习视屏" target="new">TopBook</a>
+						<a href="http://www.jianzhan01.com/" title="HTML" target="new">建站之家</a>
+					</li>
+				</ul>
+				<ul class="menu-8">官方网站
+					<li><a href="https://www.oracle.com/cn/index.html" title="Java、C\C++" target="new">甲骨文</a></li>
+				</ul>
+			</nav>
+        </div>
+        <div class="right-bottom">
+				<h1 style="font-size: 300px">钟楚滨</h1>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer-box">
+    	<div class="fore">
+			<dl>软件下载指南</dl>
+			<dt>准备+安装+完成</dt>
+			<dd><a href="#">连接获取</a></dd>
+			<dd><a href="#">解压运行</a></dd>
+			<dd><a href="#">安装路径</a></dd>
+			<dd><a href="#">配置文件</a></dd>
+		</div>
+		<div class="fore">
+			<dl>捐赠支持</dl>
+			<dt>支付方式</dt>
+			<dd><a href="#">银行卡</a></dd>
+			<dd><a href="#">支付宝</a></dd>
+			<dd><a href="#">其它</a></dd>
+		</div>
+		<div class="fore">
+			<dl>联系站长</dl>
+			<br  />
+			<dd><a href="#">qq:2913518004</a></dd>
+			<dd><a href="#">weiChat:ZCB4-8</a></dd>
+		</div>
+		<div class="fore">
+			<dl>特色服务</dl>
+			<br  />
+			<dd><a href="#">在线一对一指导</a></dd>
+			<dd><a href="#">图文教程</a></dd>
+		</div>
+    <div>
+	<div class="last"><p>个人收藏网站<span>.</span>提供日常所需</p></div>
+	<div class="laster"><a href="#">个人网站@钟楚滨.com</a></div>
+</footer>
+</body>
+</html>
