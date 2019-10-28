@@ -1,8 +1,10 @@
 # zchubin.github.io
 ------
-[zhongchubin](https://zchubin.github.io/zhongchubin5.html "zcb4-8")
+[zhongchubin](https://zchubin.github.io/zcb.html "主页")
 
 # 这是我的博客伴生文档
+
+>> MYLOGO
 ![favicon.ico](https://zchubin.github.io/favicon.ico "MyLogo")
 
 为了方便以后要的维护，本文档将记录本博客所有可能遗忘`html\css`中提及的`class`、`id`和`元素`。
