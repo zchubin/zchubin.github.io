@@ -1,0 +1,251 @@
+@charset "utf-8";
+html{
+    background-color: #333333;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear { 
+    clear:both !important; 
+}
+
+.bgcolor-red{
+    background-color: red;
+}
+
+.bgcolor-blue{
+    background-color: #3C8CE7;
+    border-radius: 5px;
+}
+.bgcolor-blue:hover{
+    background-color: #5151E5;
+}
+
+.mian-line-1{
+    border-right: 2px solid red;
+}
+.mian-line-2{
+    border-right: 2px solid orange;
+}
+.mian-line-3{
+    border-right: 2px solid #11998e;
+}
+
+.li-box{
+    display: none;
+    position: absolute;
+}
+
+#ul-button:hover{
+    border-radius: 5px;
+    background-color: #3C8CE7;
+}
+
+#ul-button:hover .li-box{
+    display: block;
+    width: 180px;
+    height: 20px;
+    padding-right: 2px;
+}
+
+.top-container{
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #e8e8e8;
+    border-bottom-color: rgb(232, 232, 232);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.logo, .top-container a{
+    color: white;
+    display: inline-block;
+    line-height: 3rem;
+    height: 48px;
+}
+
+.logo{
+    width: 168px;
+    font-size: 38px;
+}
+.move{
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;   
+}
+
+.move-1{
+    width: 20px;
+    height: 20px;
+    animation: mymove 10s infinite;
+    -webkit-animation: mymove-1 60s infinite;
+    background-color: red;
+}
+
+@keyframes mymove-1{
+    from{left:-430px;}
+    to{left:450px}
+}
+@-webkit-keyframes mymove-1
+{
+    from {left:-430px;}
+    to {right:450px;}
+}
+
+.move-2{
+    width: 10;
+    height: 10px;
+    animation: mymove 5s infinite;
+    -webkit-animation: mymove-2 10s infinite;
+    background-color: #3CD500;
+}
+
+@keyframes mymove-2{
+    from{left:-460px;}
+    to{left:430px}
+}
+@-webkit-keyframes mymove-2{
+    from {left:-460px;}
+    to {left:430px;}
+}
+
+.table-box{
+    color: white;
+    display: inline-block;
+    width: 90px;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.table-box-2{
+    color: white;
+    display: inline-block;
+    width: 180px;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+table{
+    max-width: 900px;
+    min-width: 80px;
+    overflow: hidden;
+}
+
+.table-1{
+    display: block;
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+
+.table-2{
+    display: block;
+    border: 1px solid indigo;
+    border-radius: 6px;
+}
+
+.table-3{
+    display: block;
+    border: 1px solid purple;
+    border-radius: 6px;
+}
+
+.table-4{
+    display: block;
+    border: 1px solid pink;
+    border-radius: 6px;
+}
+
+.table-5{
+    display: block;
+    border: 1px solid orange;
+    border-radius: 6px;
+}
+
+.table-6{
+    display: block;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+.table-7{
+    display: block;
+    border: 1px solid teal;
+    border-radius: 6px;
+}
+
+.tr-box1-color{
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);;
+}
+
+.tr-box2-color{
+    background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
+}
+
+.tr-box3-color{
+    background-image: linear-gradient( 135deg, #FF96F9 10%, #CA26FF 100%);
+}
+
+.tr-box4-color{
+    background-image: linear-gradient( 135deg, #FF96F9 10%, #C32BAC 100%);
+}
+
+.tr-box5-color{
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+}
+
+.tr-box6-color{
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+
+.tr-box7-color{
+    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+}
+
+.hover-after:hover{
+    border-radius: 6px;
+    background: #0f9b0f;
+}
+
+.sidebar{
+    width: 80px;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+
+.sidebar-a{
+    display: block;
+    width: 70px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 2px 0 0 2px;
+    margin-bottom: 3px;
+    cursor: default;
+}
+
+.sidebar-last{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1 solid red;
+}
+
+.footer-bottom {
+    margin: 10px 0 0 0;
+    padding-top: 10px;
+    color: white;
+    min-height: 40px;
+    background-color: #444444;
+    border-bottom: 3px solid red;
+}
