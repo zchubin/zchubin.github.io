@@ -75,7 +75,6 @@ body {
     line-height: 1;
     overflow-x: hidden;
     font-size: 14px;
-    color: #333;
 }
 
 
@@ -96,7 +95,6 @@ img {
       
 a {
     text-decoration: none;
-    color: #232323;
 }
 
 
@@ -123,4 +121,3 @@ textarea {
     resize: none;
     overflow: auto;
 }
-    
