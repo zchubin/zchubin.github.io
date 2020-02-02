@@ -17,70 +17,6 @@ html {
     float: clear;
 }
 
-.a-box {
-    color: white;
-    font-weight: 800;
-    display: inline-block;
-    margin: 0.2rem 0.1rem !important;
-    padding: 0.5em !important;
-    min-height: 2em;
-    min-height: 2em;
-    border-radius: 500rem;
-    cursor: pointer;
-    text-align: center;
-}
-
-#header {
-   margin: 0 auto;
-   position: fixed;
-   height: 26px !important;
-   background-color: #272b38;
-   border-bottom: 1px solid rgb(232,232,232);
-}
-
-.zcb {
-    font-size: 24px;
-    display: inline-block;
-    width: 100px;
-    height: 24px;
-    margin-left: 10px;
-    line-height: 25px;
-}
-
-.zcb-min {
-    font-weight: 400;
-    display: inline-block;
-    width: 10opx;
-    height: 14px;
-}
-
-.header-last {
-    float: inline-end;
-    width: 999999px;
-/*    height: 30px; */
-    background-color: #3CD500;
-}
-
-/* .main-box {
-    float: clear;
-    background-color: #E83E8C; 
-} */
-
-.title-name {
-    display: inline-block;
-    width: 43px;
-    border-radius: 0 30% 30% 0;
-    text-align: center;
-    padding: 12px 4px;
-    margin-right: 0.4rem;
-}
-
-.a-href-box {
-    min-height: 52px;
-    width: auto;
-    padding-top: 8px;
-}
-
 .title-bg-1 {
     background-color: #4285f4;
 }
@@ -163,106 +99,33 @@ html {
     background-color: #2185d0;
 }
 
+.bgcolor-13 {
+    background-color: #b5cc18;
+}
+
+.bgcolor-14 {
+    background-color: #21ba45;
+}
+
+.bgcolor-15 {
+    background-color: #00b5ad;
+}
+
+.bgcolor-16 {
+    background-color: #a5673f;
+}
+
 /* -------------------------------------------- */
 
-.upbox {
-   z-index: 100;
-   width: 90px;
-   height: 20px;
-   font-size: 20px;
-   line-height: 20px;
-   margin: 10px 0 0 20px;
-}
-
-.bubox{
-    color: rgb(251, 181, 181);
-    display: inline-block;
-    width: 102px;
-    height: 10px;
-    margin-top: 10px;
-    line-height: 25px;
-}
-
-.titl1 {
-    font-size: 20px;
-    width: 20px;
-    height: auto;
-    margin: 2px;
-    padding: 4px 0 4px 0;
-}
-
-.nomal-box {
-    font-size: 20px;
-    display: inline-block;
-    margin: 10px 0 10px 0;
-    width: 160px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-}
-
-.bottom-box {
-    font-size: 20px;
-    display: block;
-    margin: 0 40px 0 40px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-}
-
-.footer-bottom {
-    margin: 50px 0 0 0;
-    padding-top: 10px;
+.a-box {
     color: white;
-    min-height: 40px;
-    background-color: #444444;
-    border-bottom: 3px solid red;
-}
-
-.footer-bottom {
-    margin: 10px 0 0 0;
-    padding-top: 10px;
-    color: white;
-}
-
-.move{
+    font-weight: 800;
     display: inline-block;
-    position: absolute;
-    z-index: 100;
-}
-
-.move-1{
-    width: 20px;
-    height: 20px;
-    animation: mymove 20s infinite;
-    -webkit-animation: mymove-1 60s infinite;
-    background-color: red;
-}
-
-@keyframes mymove-1{
-    from{left: 0px;}
-    to{left: 900px}
-}
-@-webkit-keyframes mymove-1
-{
-    from {left: 0px;}
-    to {right: 900x;}
-}
-
-.move-2{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    animation: mymove 10s infinite;
-    -webkit-animation: mymove-2 10s infinite;
-    background-color: #3CD500;
-}
-
-@keyframes mymove-2{
-    from{left: 0px;}
-    to{left: 900px}
-}
-@-webkit-keyframes mymove-2{
-    from {left: 0px;}
-    to {left: 900px;}
+    margin: 0.2rem 0.1rem !important;
+    padding: 0.5em !important;
+    min-height: 2em;
+    min-height: 2em;
+    border-radius: 500rem;
+    cursor: pointer;
+    text-align: center;
 }
