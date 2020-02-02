@@ -1,5 +1,5 @@
 html {
-    background-color: red;
+    background-color: #272b38;
     color: white;
     justify-content: center;
     
@@ -18,25 +18,23 @@ html {
 }
 
 .a-box {
-    font-weight: 700;
+    color: white;
+    font-weight: 800;
     display: inline-block;
-    margin: 0.4rem !important;
+    margin: 0.2rem 0.1rem !important;
     padding: 0.5em !important;
     min-height: 2em;
     min-height: 2em;
     border-radius: 500rem;
     cursor: pointer;
     text-align: center;
-    /* box-shadow:  -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,.1); */
 }
 
 #header {
    margin: 0 auto;
    position: fixed;
-   /* background-color: #272b38; */
-   background: #0F2027;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   height: 26px !important;
+   background-color: #272b38;
    border-bottom: 1px solid rgb(232,232,232);
 }
 
@@ -63,22 +61,109 @@ html {
     background-color: #3CD500;
 }
 
+/* .main-box {
+    float: clear;
+    background-color: #E83E8C; 
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-.main-box {
-   border-bottom: 1px solid rgb(232,232,232);
-   overflow: hidden;
+.title-name {
+    display: inline-block;
+    width: 43px;
+    border-radius: 0 30% 30% 0;
+    text-align: center;
+    padding: 12px 4px;
+    margin-right: 0.4rem;
 }
+
+.a-href-box {
+    min-height: 52px;
+    width: auto;
+    padding-top: 8px;
+}
+
+.title-bg-1 {
+    background-color: #4285f4;
+}
+
+.title-bg-1 {
+    background-color: #4285f4;
+}
+
+.title-bg-2 {
+    background-color: #db4437;
+}
+
+.title-bg-3 {
+    background-color: #f4b400;
+}
+
+.title-bg-4 {
+    background-color: #0f9d58;
+}
+
+.title-bg-5 {
+    background-color: #db4437;
+}
+
+.title-bg-6 {
+    background-color: #db2828;
+}
+
+/* ---------------------------- */
+
+.bgcolor-1 {
+    background-color: #a5673f;
+}
+
+.bgcolor-2 {
+    background-color: #b5cc18;
+}
+
+.bgcolor-3 {
+    background-color: #db2828;
+}
+
+.bgcolor-4 {
+    background-color: #00b5ad;
+}
+
+.bgcolor-5 {
+    background-color: #f2711c;
+}
+
+.bgcolor-5 {
+    background-color: #f2711c;
+}
+
+.bgcolor-6 {
+    background-color: #fbbd08;
+}
+
+.bgcolor-7 {
+    background-color: #b5cc18;
+}
+
+.bgcolor-8 {
+    background-color: #21ba45;
+}
+
+.bgcolor-9 {
+    background-color: #db2828;
+}
+
+.bgcolor-10 {
+    background-color: #e03997;
+}
+
+.bgcolor-11 {
+    background-color: #a333c8;
+}
+
+.bgcolor-12 {
+    background-color: #2185d0;
+}
+
+/* -------------------------------------------- */
 
 .upbox {
    z-index: 100;
