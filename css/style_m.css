@@ -1,8 +1,6 @@
 html {
     background-color: #272b38;
     color: white;
-    justify-content: center;
-    
 }
 
 .float-left {
@@ -43,6 +41,10 @@ html {
 
 .title-bg-6 {
     background-color: #db2828;
+}
+
+.title-bg-7 {
+    background-color: #233232;
 }
 
 /* ---------------------------- */
@@ -119,6 +121,7 @@ html {
 
 .a-box {
     color: white;
+    font-size: 20px;
     font-weight: 800;
     display: inline-block;
     margin: 0.2rem 0.1rem !important;
