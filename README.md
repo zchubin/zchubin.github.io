@@ -2,8 +2,13 @@
 
 | 网址导航                                                     |
 | ---                                                          |
-| [PC 端](https://zchubin.github.io/zcb.html "主页")           |
-| [移动版](https://zchubin.github.io/zcb_m.html "主页-移动版") |
+| [PC 端](./zcb.html "主页")           |
+| [移动版](./zcb_m.html "主页-移动版") |
+
+| 简历示例                                                       |
+| ---                                                            |
+| [demo1](./Resume-template/Demo_1.html) |
+
 
 ## 用途
 1. 学习和使用HTML和CSS;
