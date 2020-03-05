@@ -1,0 +1,40 @@
+不同操作系统
+font-family: Helvetica, Tahoma, Arial;
+
+中英文
+font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+
+兼容
+font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei";
+
+小米
+font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","HeitiSC","WenQuanYi Micro Hei",sans-serif;
+淘宝
+font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+简书
+font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "MicrosoftYaHei", "WenQuanYi Micro Hei", sans-serif;
+*
+font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+https://github.com/zenozeng/fonts.css -- 跨平台中文字体解决方案
+
+https://github.com/sofish/typo.css -- 中文网页重设与排版：一致化浏览器排版效果
+
+引用字体包
+
+@font-face {
+    font-family: 'lato';
+    src: url(./font/Lato-Light.ttf);
+}
+字体也可以引用不同的字体文件格式
+
+@font-face {
+  font-family: "SourceHanSansCN-Light";
+  src: url("../font/SourceHanSansCN-Light.otf"),
+    url("../font/SourceHanSansCN-Light.ttf");
+  font-family: "SourceHanSansCN-Normal";
+  src: url("../font/SourceHanSansCN-Normal.otf");
+  font-family: "SourceHanSansCN-Regular";
+  src: url("../font/SourceHanSansCN-Regular.otf");
+}
