@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 
 title: [zchubin的个人博客]
 description: [一个记录学习历程,练习和网站收集的库]
+
+show_downloads: ["true"]
